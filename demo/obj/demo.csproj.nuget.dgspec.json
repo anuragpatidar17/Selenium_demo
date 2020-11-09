@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/anuragpatidar/Projects/demo/demo/demo.csproj": {}
+  },
+  "projects": {
+    "/Users/anuragpatidar/Projects/demo/demo/demo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anuragpatidar/Projects/demo/demo/demo.csproj",
+        "projectName": "demo",
+        "projectPath": "/Users/anuragpatidar/Projects/demo/demo/demo.csproj",
+        "packagesPath": "/Users/anuragpatidar/.nuget/packages/",
+        "outputPath": "/Users/anuragpatidar/Projects/demo/demo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anuragpatidar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[86.0.4240.2200, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
