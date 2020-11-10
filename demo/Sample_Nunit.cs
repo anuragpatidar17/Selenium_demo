@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace SeleniumTest
 {
-    class Program
+    class Sample_Nunit
     {
         IWebDriver driver = new ChromeDriver();
 
@@ -20,7 +20,7 @@ namespace SeleniumTest
         [SetUp]
         public void startBrowser()
         {
-            driver.Url = "http://www.google.co.in";
+            driver.Navigate().GoToUrl("https://www.google.com/");
             Thread.Sleep(2000);
         }
 
