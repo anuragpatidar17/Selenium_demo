@@ -1,4 +1,4 @@
-﻿using OpenQA.Selenium;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
 using System.Collections.Generic;
@@ -20,7 +20,7 @@ namespace SeleniumTest
             Thread.Sleep(2000);
             // identify the Google search text box  
             IWebElement ele = driver.FindElement(By.Name("q"));
-            ele.SendKeys("javatpoint tutorials");
+            ele.SendKeys("java");
             Thread.Sleep(2000);
             //identify the google search button  
             IWebElement ele1 = driver.FindElement(By.Name("btnK"));
